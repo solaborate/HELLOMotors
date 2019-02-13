@@ -108,6 +108,7 @@ class MainActivity : AppCompatActivity() {
                 motorInteractor.sendCommand(MotorMovement.RIGHT)
                 return true
             }
+            KeyEvent.KEYCODE_BACK -> finish()
         }
         return false
     }
