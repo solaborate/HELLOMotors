@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="up" />
+
+    <Button
+        android:id="@+id/button_down"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="down" />
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="left" />
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="right" />
+
+    <Button
+        android:id="@+id/start_random_movement"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Start random movement" />
+
+    <Button
+        android:id="@+id/stop_random_movement"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Stop random movement" />
+
+
+</LinearLayout>
