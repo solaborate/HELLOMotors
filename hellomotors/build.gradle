@@ -1,4 +1,41 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+    }
+}
+
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'com.solaborate.hellomotors'
+
+    publishedGroupId = 'com.solaborate'
+    libraryName = 'HelloMotors'
+    artifact = 'hellomotors'
+
+    libraryDescription = 'A library to move camera motors on HELLO2'
+
+    siteUrl = 'https://github.com/solaborate/HELLOMotors'
+    gitUrl = 'https://github.com/solaborate/HELLOMotors.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'kushtrimpacaj'
+    developerName = 'Kushtrim Pacaj'
+    developerEmail = 'kushtrimpacaj@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 
 android {
     compileSdkVersion 28
@@ -33,3 +70,4 @@ dependencies {
 
     implementation 'com.android.support:appcompat-v7:28.0.0'
 }
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
