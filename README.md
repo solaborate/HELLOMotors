@@ -17,11 +17,11 @@ motorInteractor.sendCommand(MotorMovement.DOWN)
 motorInteractor.sendCommand(MotorMovement.LEFT)
 motorInteractor.sendCommand(MotorMovement.RIGHT)
 ...
-motorInteractor.destroy()    // call it onDestroy, in order to destroy to close the connection 
+motorInteractor.destroy()    // call it onDestroy, in order to close the connection 
 ```
 
-Note that the movement is discrete, one call move the motors for one 'unit of movement' , a very low angle.
-To continually move, you must call more than once.
+Note that the movement is discrete, one call moves the motors for one 'unit of movement', a very low angle.
+To continually move, you must call it more than once.
 ```kotlin
    for (i in 1..20){
             motorInteractor.sendCommand(MotorMovement.LEFT)
