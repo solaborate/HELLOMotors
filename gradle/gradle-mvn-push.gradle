@@ -72,6 +72,7 @@ bintray {
         dryRun = false
         publish = true
         override = false
+        userOrg = userOrganization
         publicDownloadNumbers = false
         version {
             desc = libraryDescription

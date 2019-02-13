@@ -21,7 +21,7 @@ ext {
     artifact = 'hellomotors'
 
     libraryDescription = 'A library to move camera motors on HELLO2'
-
+    userOrganization  = 'solaborate'
     siteUrl = 'https://github.com/solaborate/HELLOMotors'
     gitUrl = 'https://github.com/solaborate/HELLOMotors.git'
 
