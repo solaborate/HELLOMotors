@@ -28,7 +28,11 @@ To continually move, you must call more than once.
             Thread.sleep(50)  // don't do this on UI thread.
         }
 ```
+
 Change the timing between commands in order to adjust the perceived smoothness of movement.
+
+
+
 Download
 --------
 
