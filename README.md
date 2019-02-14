@@ -37,13 +37,6 @@ Download
 --------
 
 ```groovy
-repositories {
-    // library is not in jCenter at the moment. Should be added in the next couple of days.
-    // until then, specify the repository url directly,
-    maven {
-        url 'https://dl.bintray.com/solaborate/maven/'
-    }
-}
 dependencies {
   implementation 'com.solaborate:hellomotors:1.0.0'
 }
