@@ -3,7 +3,7 @@ HELLO Motors
 
 [ ![Download](https://api.bintray.com/packages/solaborate/maven/com.solaborate.hellomotors/images/download.svg) ](https://bintray.com/solaborate/maven/com.solaborate.hellomotors/_latestVersion)
 
-This is a library to allow developers to control the camera motors on Solaborate HELLO2, in order to achieve tilting funcionality.
+This is a library to allow developers to control the camera motors on Solaborate HELLO2, in order to achieve tilting functionality.
 
 Sample usage (see the [sample app][sample_link] for more complex examples) :
 
